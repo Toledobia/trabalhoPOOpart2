@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fontes.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;100;300;400;700& display=swap" rel="stylesheet">
+      <title>HOME  | Conversion Calculator </title>
+      <link rel="stylesheet" href="css/reset.css">
+       <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+  
+    <header class="header">
+      <img src="assets/Capturar.PNG" alt="" srcset="">
+    </header>
+
+    <main class="container">
+        <article class="card">
+          <header class="card_header">
+              <p>BRL para Dólar</p>
+              <img src="assets/dolar.png"  alt="">
+          </header>
+          ,<form class="card__form">
+            <input type="text" id="realDolar" placeholder="Informe o valor em Real">
+            <button type="button"  onclick="conversao.converterRealdolar()" >Converter</button>
+          </form>
+
+          <section class="content"  id="resultadorealdolar"></section>
+        </article>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
